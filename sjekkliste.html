@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <title data-en="AIGuidebook – Checklist">AIGuidebook – Sjekkliste</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <button id="lang-toggle" class="nav-link lang-toggle">
+      <img src="engelsk1.jpeg" alt="Switch language" />
+    </button>
+
+    <a href="index.html" class="nav-link" data-en="Home">Hjem</a>
+    <a href="ansvarlig.html" class="nav-link" data-en="Responsible use">Ansvarlig bruk</a>
+    <a href="risiko.html" class="nav-link" data-en="Risk &amp; Privacy">Risiko &amp; Personvern</a>
+    <a href="eksempler.html" class="nav-link" data-en="Examples">Eksempler</a>
+    <a href="faq.html" class="nav-link" data-en="FAQ">FAQ</a>
+    <a href="sjekkliste.html" class="nav-link active" data-en="Checklist">Sjekkliste</a>
+  </nav>
+
+  <main>
+    <section>
+      <h1 data-en="Checklist before you use AI in your studies">
+        Sjekkliste før du bruker KI i studiene
+      </h1>
+      <p data-en="Use this checklist as a quick self-check before you bring AI into your study work. The goal is to get good support from the tools without compromising your own learning, privacy or the rules of your programme.">
+        Bruk sjekklisten som en rask egenkontroll før du tar KI inn i arbeidet ditt.
+        Målet er at du skal få god hjelp av verktøyene – uten å gå på kompromiss med
+        egen læring, personvern eller reglene ved studiet.
+      </p>
+
+      <div class="checklist-wrapper">
+        <div class="role-tabs">
+          <button class="role-tab active" data-role="student" data-en="Student">Student</button>
+          <button class="role-tab" data-role="laerer" data-en="Teacher">Lærer</button>
+          <button class="role-tab" data-role="admin" data-en="Administration">Administrasjon</button>
+        </div>
+
+        <!-- STUDENT -->
+        <ul class="checklist-items" data-role-list="student">
+          <li>
+            <input type="checkbox" id="s1" />
+            <label for="s1" data-en="I have read what the course says about AI use, and I know if there are different rules for exercises, assignments and exams.">
+              Jeg har lest hva emnet sier om KI-bruk, og vet om det er forskjell på regler i øvingsoppgaver,
+              innleveringer og eksamen.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s2" />
+            <label for="s2" data-en="I try to understand the task and topic myself first, and use AI as support – not as the first and only solution.">
+              Jeg forsøker først å forstå oppgaven og temaet selv, og bruker KI som støtte – ikke som
+              første og eneste løsning.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s3" />
+            <label for="s3" data-en="I do not enter personal data about myself, fellow students or others (names, evaluations, addresses, health information etc.) into AI tools.">
+              Jeg legger ikke inn personopplysninger om meg selv, medstudenter eller andre (navn, vurderinger,
+              adresser, helseopplysninger osv.) i KI-verktøy.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s4" />
+            <label for="s4" data-en="I ask AI for explanations, examples and help with structure – not to write the whole answer or solve exam tasks.">
+              Jeg ber KI om forklaringer, eksempler og forslag til struktur – ikke om å skrive hele besvarelsen
+              eller løse eksamensoppgaver for meg.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s5" />
+            <label for="s5" data-en="I double-check important facts, concepts and numbers against curriculum or other academic sources before I use them in a submission.">
+              Jeg dobbeltsjekker viktige fakta, begreper og tall mot pensum, fagartikler eller forelesningsnotater
+              før jeg bruker dem i en innlevering.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s6" />
+            <label for="s6" data-en="I write in my own words and make sure the text reflects what I actually understand – not just what AI suggested.">
+              Jeg skriver med egne ord og sørger for at teksten faktisk speiler det jeg forstår – ikke bare det KI har foreslått.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s7" />
+            <label for="s7" data-en="I could explain to a teacher how I worked, what questions I asked AI and which parts of the text I have edited myself.">
+              Jeg kunne forklart til en lærer hvordan jeg har jobbet, hvilke spørsmål jeg stilte KI, og hvilke deler
+              av teksten som er bearbeidet av meg.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s8" />
+            <label for="s8" data-en="I state that I have used AI if the assignment or institution requires it, and I follow the recommended way to do this.">
+              Jeg oppgir at jeg har brukt KI dersom oppgaven eller institusjonen krever det, og følger anbefalt måte
+              å gjøre dette på.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s9" />
+            <label for="s9" data-en="I do not use AI in situations where it is explicitly forbidden, such as exams or specific tests.">
+              Jeg bruker ikke KI i situasjoner der det er eksplisitt forbudt, som på eksamen eller i bestemte
+              individuelle tester.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="s10" />
+            <label for="s10" data-en="I do not share fellow students’ drafts or texts in AI tools without their clear consent.">
+              Jeg deler ikke medstudenters tekster eller utkast i KI-verktøy uten at de har gitt tydelig samtykke.
+            </label>
+          </li>
+        </ul>
+
+        <!-- LÆRER -->
+        <ul class="checklist-items" data-role-list="laerer" style="display:none;">
+          <li>
+            <input type="checkbox" id="t1" />
+            <label for="t1" data-en="I know my institution's guidelines for AI and have considered how to apply them in my course.">
+              Jeg kjenner institusjonens retningslinjer for KI og har tenkt gjennom hvordan de skal brukes i mitt emne.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="t2" />
+            <label for="t2" data-en="I inform students clearly about what is allowed and not allowed – in exercises, submissions and exams.">
+              Jeg informerer studentene tydelig om hva som er lov og ikke lov – både i øvingsoppgaver, innleveringer
+              og eksamen.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="t3" />
+            <label for="t3" data-en="I use AI as support when creating examples, explanations or practice questions, but I always quality-check the content.">
+              Jeg bruker KI som støtte når jeg lager eksempler, forklaringer eller øvingsoppgaver, men kvalitetssikrer
+              alltid faglig innhold.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="t4" />
+            <label for="t4" data-en="I talk with students about the difference between using AI as a learning aid and using it in ways that count as cheating.">
+              Jeg snakker med studentene om forskjellen mellom å bruke KI som læringsstøtte og å bruke det på en måte
+              som kan regnes som juks.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="t5" />
+            <label for="t5" data-en="I consider whether assessment forms in the course should be adjusted in light of AI (for example more oral work, reflection on process, or use of own data/cases).">
+              Jeg vurderer om vurderingsformene i emnet bør justeres i lys av KI (for eksempel mer muntlig aktivitet,
+              refleksjon rundt arbeidsprosess eller bruk av egne data/case).
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="t6" />
+            <label for="t6" data-en="I have a plan for handling suspected AI-related cheating, in line with institutional procedures.">
+              Jeg har en plan for hvordan jeg håndterer mistanke om KI-relatert fusk, i tråd med institusjonens rutiner.
+            </label>
+          </li>
+        </ul>
+
+        <!-- ADMINISTRASJON -->
+        <ul class="checklist-items" data-role-list="admin" style="display:none;">
+          <li>
+            <input type="checkbox" id="a1" />
+            <label for="a1" data-en="We have clear, written guidelines for AI use that are available to students and staff.">
+              Vi har tydelige, skriftlige retningslinjer for KI-bruk som er tilgjengelige for studenter og ansatte.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="a2" />
+            <label for="a2" data-en="We provide information about AI guidelines at the start of studies and remind people in relevant courses and forums.">
+              Vi gir informasjon om KI-retningslinjer ved studiestart, og minner om dem i relevante emner og fagfora.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="a3" />
+            <label for="a3" data-en="We regularly assess privacy and data security risks when new AI tools are introduced and offer safe alternatives where possible.">
+              Vi vurderer jevnlig personvern- og datasikkerhetsrisiko når nye KI-verktøy tas i bruk, og tilbyr
+              trygge alternativer der det er mulig.
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="a4" />
+            <label for="a4" data-en="We support academic staff with templates and examples (for example suggested text about AI in course descriptions, assignments and exam instructions).">
+              Vi støtter fagmiljøene med maler og eksempler (for eksempel forslag til tekst om KI i emnebeskrivelser,
+              oppgavetekster og eksamensinstrukser).
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="a5" />
+            <label for="a5" data-en="We have clear procedures for handling AI-related cheating cases that safeguard both students' rights and academic integrity.">
+              Vi har tydelige prosedyrer for håndtering av KI-relatert fusk, som både ivaretar studentenes rettssikkerhet
+              og institusjonens krav til akademisk integritet.
+            </label>
+          </li>
+        </ul>
+
+        <div class="checklist-tip" data-en="<strong>Tip for teachers:</strong> Let students go through the checklist together the first time you talk about AI in the course. Ask them to explain why each point matters – this strengthens their understanding of both rules and academic responsibility.">
+          <strong>Tips til lærere:</strong> La studentene gå gjennom sjekklisten i plenum første gang dere snakker om KI i emnet.
+          Be dem gjerne begrunne hvorfor hvert punkt er viktig – det styrker forståelsen av både regler og faglig ansvar.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
